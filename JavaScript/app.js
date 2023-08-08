@@ -106,7 +106,7 @@ getlocation()
         const weTemp = weData.main.temp;
         const weMain = weData.weather[0].main;
         const weDes = weData.weather[0].description;
-        console.log(weTemp, weDes, weMain)
+        // console.log(weTemp, weDes, weMain)
 
         const iconName = getIcon(weMain);
         icon.innerHTML = `<img src = '../icons/${iconName}'></img>`;
